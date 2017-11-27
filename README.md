@@ -5,7 +5,7 @@ After receiving an access token from Passiosoft you want to make some calls. The
 
 For instance, to use the token from the previous example in your headers:
 
-```Authorization: Bearer ZjEyMmE1ZDFhYmZiYzI2ZjkyMmUzYjczZDAyMmY5MzI0ZGYzN2Y0NzFhZjA5YzNhMjk2MTVmNjU1OTVhYTU0```
+```Authorization: Bearer ZjEy***jklhMjk2MTVmNjU155AffrVhYTU0```
 
 ### using cURL/PHP
 
