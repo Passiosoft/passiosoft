@@ -9,4 +9,4 @@ For instance, to use the token from the previous example in your headers:
 
 ### using cURL/PHP
 
-see example api-test.php
+see [example api-test.php](https://github.com/jozeflambrecht/passiosoft/blob/master/php-json-example.php)
