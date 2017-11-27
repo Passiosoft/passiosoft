@@ -24,6 +24,7 @@ $variables = [
     'phone' => '4360949093',
     'trust_company' => 'ComputerShare', // account info
     'plan_number' => '',
+    'account_type' => 'RRSP',
     'account_document' => '', // base64_encode(file_get_contents('path/to/account_document.pdf'));
     'trade_number' => '',
     'class' => '',
