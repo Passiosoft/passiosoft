@@ -54,7 +54,7 @@ $variables_string = http_build_query($variables);
 
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://pcfm.passiosoft.com/api/account",
+  CURLOPT_URL => "https://sandbox.passiosoft.com/api/account",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
