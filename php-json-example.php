@@ -7,6 +7,7 @@ $variables = [
     'business_name' => '',
     'business_number' => '',
     'dob' => '1975-09-10',
+    'investor_email' => '',
     'joint_first_name' => 'Justine',
     'joint_last_name' => 'Welham',
     'joint_email' => 'join@example.com',
@@ -31,7 +32,8 @@ $variables = [
     'series' => '',
     'drip' => '', // 0/1
     'dealer' => 'Example EMD',
-    'representative' => 'Kerry Lum',
+    'representative' => 'James Smith',
+    'representative_email' => 'james@passiosoft.com',
     'fund' => 'Example Fund',
     'currency' => 'CAD',
     'account_date' => '2017-11-23',
@@ -66,7 +68,9 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTPHEADER => array(
     "authorization: Bearer *****************************",
     "cache-control: no-cache",
-    "accept: application/json"
+    "accept: application/json",
+    "Content-Type: application/json",
+    "X-Requested-With: XMLHttpRequest",
   ),
 ));
 
